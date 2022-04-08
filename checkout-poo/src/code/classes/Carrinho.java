@@ -59,7 +59,9 @@ public class Carrinho {
 		}
 	}
 
-	public boolean CarrinhoVazio() {
-		return primeiroItem == ultimoItem;
+	public void CarrinhoVazio() {
+		if(primeiroItem == ultimoItem) {
+			System.out.println("Lista vazia!");
+		}
 	}
 }

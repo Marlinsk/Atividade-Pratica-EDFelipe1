@@ -25,6 +25,7 @@ public class Teste {
 		cliente.getCarrinho().imprimirCarrinho();
 		cliente.getCarrinho().removerProdutoEspecificoCarrinho("Fermento em Pó Droetker");
 		cliente.getCarrinho().LimparCarrinho(10);
+		cliente.getCarrinho().imprimirCarrinho();
 		cliente.getCarrinho().CarrinhoVazio();
 	}
 }
