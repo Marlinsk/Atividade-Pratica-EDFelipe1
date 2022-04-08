@@ -52,6 +52,4 @@ public class Produto {
 		return nome + " [" + "descrição do produto= " + descricao + ", quantidade do produto= " + quantidadeProduto
 				+ ", preço unitário= " + precoUnitario + "]";
 	}
-	
-	
 }
