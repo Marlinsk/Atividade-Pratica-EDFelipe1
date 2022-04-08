@@ -28,5 +28,4 @@ public class Cliente {
 	public void setCarrinho(Carrinho carrinho) {
 		this.carrinho = carrinho;
 	}
-    
 }
